@@ -1,6 +1,6 @@
 
 #background-img{
-    background-image: url("/assets/img/restuarent.jpg");
+    background-image: url("../img/restuarent.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -45,14 +45,14 @@
 .login{
     height: 100%;
     width: 100%;
-    background-image: url("/assets/img/spegetti.jpg") !important;
+    background-image: url("../img/spegetti.jpg") !important;
     background-position: center;
     background-size: cover;
     position: absolute;
 
 }
 #login-bg{
-    background-image: url("/assets/img/spegetti.jpg") !important;}
+    background-image: url("../img/spegetti.jpg") !important;}
 
 
 .form-box{
