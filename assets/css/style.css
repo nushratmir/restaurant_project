@@ -62,9 +62,10 @@
     margin:6% auto;
     background: lightgreen;
     padding:5px;
+    overflow: hidden;
 }
 .button-box{
-    width: 300px;
+    width: 250px;
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px blueviolet;
@@ -77,15 +78,18 @@
     border: 0;
     outline: none;
     position: relative;
+
 }
 #btn{
     top: 0;
-    left: 0;
+    left: auto;
+    right: auto;
     position: absolute;
-    width: 40%;
+    width: 50% ;
     height: 100%;
     background:linear-gradient(to right,deeppink,mediumpurple);
     border-radius: 30px;
+    margin-right: 0 !important;
     transition: .5s;
 }
 
@@ -105,8 +109,16 @@
 .input-group{
     top:0 ;
     position: absolute;
-    width: 180px;
+    width: 500px;
+    margin-right: 30px;
     transition: .5s;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 300px!important;
 }
 .input-field{
     width: 100%;
